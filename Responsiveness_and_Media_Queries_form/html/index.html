@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Responsiveness_and_Media_Queries_form/css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+    <title>form assignment</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="first">
+            <h1>Learn to code by watching others</h1>
+            <p class="p">
+                see how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+                understanding how developers think is invaluable
+            </p>
+        </div>
+
+
+        <div class="second">
+
+                <!--TRY IF -->
+            <div class="second-item">
+                Try it for free 7 days <span>then $20/mo.thereafter</span>
+            </div>
+
+
+            <!-- fomr beinging -->
+
+
+            <div class="next">
+                <form action="#">
+                    <input type="text" placeholder="First name" required>
+                    <input type="text" placeholder="Last name" required>
+                    <input type="email" placeholder="Email address" required>
+                    <input type="password" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+                    <button type="submit" class="btn">CLAIM YOUR FREE TRIAL</button>
+                    <div class="aline"><p class="text">by clicking the button, you are agreeing to our <span class="middle">Terms and conditions</span>
+                    </p></div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

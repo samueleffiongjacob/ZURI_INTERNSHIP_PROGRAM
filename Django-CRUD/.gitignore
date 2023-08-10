@@ -1,0 +1,14 @@
+# Python auto-generated file/folders
+__pycache__/
+
+# Anything that ends with ".pyc"
+*.pyc
+
+# IDE specific 
+.idea/
+.vscode
+
+db.sqlite3
+
+env
+**/env

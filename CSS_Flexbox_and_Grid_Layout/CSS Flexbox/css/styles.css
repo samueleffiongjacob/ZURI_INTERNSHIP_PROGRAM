@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+main {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    height: 100vh;
+}
+
+.first-item {
+    background-color: hsl(31, 77%, 52%);
+    height: 50vh;
+    padding: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-item {
+    background-color: hsl(184, 100%, 22%);
+    height: 50vh;
+    padding: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.third-item {
+    background-color: hsl(179, 100%, 13%);
+    height: 50vh;
+    padding: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3 {
+    color: white;
+    padding: 5px;
+}
+
+h5 {
+    color: white;
+    padding-top: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+p {
+    color: white;
+    padding: 5px;
+}
+
+.btn-1 {
+    margin-left: 30px;
+    margin-top: 60px;
+    padding: 6px;
+    border: none;
+    border-radius: 15px;
+    font-size: 10px;
+    width: 60%;
+    color: hsl(31, 77%, 52%);
+    ;
+}
+
+.btn-2 {
+    margin-left: 30px;
+    margin-top: 58px;
+    padding: 6px;
+    border: none;
+    border-radius: 15px;
+    font-size: 10px;
+    width: 60%;
+    color: hsl(184, 100%, 22%);
+    ;
+}
+
+.btn-3 {
+    margin-left: 30px;
+    margin-top: 60px;
+    padding: 6px;
+    border: none;
+    border-radius: 15px;
+    font-size: 10px;
+    width: 60%;
+    color: hsl(179, 100%, 13%);
+    ;
+}
+
+
+
+#ww {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: hsl(179, 100%, 13%);
+    border-right: 1px solid #bbb;
+    position: fixed;
+    top: 0;
+    z-index: 1000%;
+    font-size: 20px;
+    width: 20%;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#nav {
+    float: left;
+}
+
+#nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* not active nav */
+#nav a:hover:not(.active) {
+    background-color: hsl(31, 77%, 52%);
+}
+
+/* active nav */
+.active {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.active:hover {
+    background-color: hsl(31, 77%, 52%);
+}

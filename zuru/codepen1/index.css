@@ -1,0 +1,101 @@
+
+body {
+    font-family: system-ui;
+    color: white;
+    margin: 0;
+    display: grid;
+    cursor: pointer;
+    background-color: darkorchid;
+    max-height: 100%;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: red;
+    line-height: 350%;
+    z-index: -1;
+    margin-top: 3.7%;
+    }
+
+section1 {
+    text-align: center;
+    place-items: center;
+    font-size: 160%;
+}
+
+section2 {
+    text-align: center;
+    place-items: center;
+    line-height: 250%;
+    
+}
+
+hr {
+    width: 50em;
+    display: block;
+    background-color: #4b4b4d;
+}
+
+li {
+    color: whitesmoke;
+    z-index: -1px;
+    float: center;
+    height: 60px;
+    margin: 15px 20px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    color: whitesmoke;
+    z-index: -1px;
+    float: center;
+    height: 50px;
+    margin: 10px 20px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: green;
+    border-radius: 10px;
+}
+
+header {
+    color: whitesmoke;
+    z-index: -1px;
+    float: center;
+    height: 100px;
+    margin: 10px 20px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 300%;
+}
+
+p1 {
+    word-break: break-word;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 40px;
+    max-height: 70px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+/* all hovers */
+header:hover {
+    background-color: blue;
+    color: black;
+}
+
+h3:hover {
+    background-color: blue;
+    color: black;
+}
+
+li:hover {
+    background-color: red;
+    color: black;
+    z-index: 3px;
+}
