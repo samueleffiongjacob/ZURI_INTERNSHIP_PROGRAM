@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/stlye.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>REGISTER</title>
+</head>
+<body>
+    <main>
+        <section>
+            <nav>
+                <ul id="ww" class="topnav mobile-container mobilenav">
+                    <li id="nav" style="float:left" class="right"><a href="/HTML/register.html" class="active">Register</a></li>
+                    <li id="nav" style="float:right" class="right"><a href="/HTML/login.html" id="a">Login</a></li>
+                </ul>
+
+                <div class="mobile-container">
+                    <div id="myLinks">
+                        <a href="/-HTML-and-CSS-zuri/HTML/register.html" class="active">Register</a>
+                        <a href="/-HTML-and-CSS-zuri/HTML/login.html" id="a">Login</a>
+                    </div>
+
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                
+            </nav>
+        </section>
+
+
+        <header>WELCOME TO OUR REGISTRAION PAGE</header>
+        <section>
+            <div class="container">
+                <form action="/HTML/index.html">
+                    <label for="first">First Name</label><br>
+                    <input type="text" placeholder="Samuel Effion" id="first" required><br><br>
+                    <label for="second">Last Name</label><br>
+                    <input type="text" placeholder="Samuel Effion" id="second" required><br><br>
+                    <label for="phone">Phone</label><br>
+                    <input type="tel" placeholder="080654217643" required id="phone" maxlength="15" minlength="+"><br><br>
+                    <label for="gender" >Select Your Gender</label><br>
+                        <select class="minimal " required id="gender">
+                            <option disabled selected hidden value="">Select Your Gender e.g: Male</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Others</option>
+                        </select><br><br>
+                    
+                    <label for="country">Country</label><br>
+                    <input type="text" placeholder="country" required id="country"><br><br>
+                    <label for="state">State/province</label><br>
+                    <input type="text" placeholder="Akwa Ibom" required id="state"><br><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" required placeholder="samueleffiong@gmail.com" id="email"><br><br>
+                    <label for="password">password</label><br>
+                    <input type="password" required id="password" placeholder="Password" onkeyup='check();'pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"><br><br>
+                    <label for="confirm">Confirm password</label><br>
+                    <input type="password" required id="confirm_password" placeholder="Confirm Password" onkeyup='check() ;'pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"><br><br>
+                    <button type="submit" class="btn">Register</button>
+                </form>
+            </div>
+            
+        </section>
+
+    
+    </main>
+    <footer>&#9400; SAMUEL EFFIONG FOR ZURI TEAM</footer>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
